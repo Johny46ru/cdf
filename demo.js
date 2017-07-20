@@ -63,7 +63,7 @@ function legendsSelCount(n) {objSel = document.getElementsByName(n)[0]; return o
 //########### 
 legendsClick("Продолжить добычу",40000); 
 
-if(legendsFindText('Service Temporarily Unavailable')||legendsFindText('Bad Gateway')||legendsFindText('internal server error')||legendsFindText('Parse error')||legendsFindText('Iaiiaeou')||legendsFindText('Центр Арены')){ 
+if(legendsFindText('Бой')||legendsFindText('Bad Gateway')||legendsFindText('internal server error')||legendsFindText('Parse error')||legendsFindText('Iaiiaeou')||legendsFindText('Центр Арены')){ 
 //Заметил, что частенько на баффах выпадает 503(502,500) ошибка. Обновляем страницу 
 legendsLink(window.location.href,1); 
 } 
